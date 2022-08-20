@@ -1,6 +1,38 @@
-h1 {
-    font-family: 'Playfair Display', serif;
+:root {
+    --button-color: rgb(85, 5, 85);
+    --backgroun-color: rgb(249, 238, 252);
+    --heading-font-family: 'Playfair Display', serif;
+    --secondary-font-family: 'Poppins', sans-serif;
 }
-span {
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: var(--secondary-font-family);
+}
+.portfolio {
+    background: var (--backgroun-color);
+    text-align: center;
+    padding: 160px 0;
+}
+.portfolio h1 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 96px;
+}
+.portfolio p {
+    font-family: var(--secondary-font-family);
+    font-size: 36px;
+    font-weight: bold;
+}
+.portfolio h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 2;  
+}
+.btn-branding {
+    color: white;
+    background: var(--button-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
