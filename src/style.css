@@ -36,3 +36,39 @@ body {
     line-height: 27px;
     padding: 15px 30px;
 }
+.second-button {
+    color: var(--button-color); 
+    background: white;
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 20px;
+    }
+    .project {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .img-project {
+        padding: 40px 60px;
+        background: var(--backgroun-color);
+        border-radius: 4px;
+    }
+    .text-description {
+        padding: 60px;
+    }
+    @media (max-width: 900px) {
+        .portfolio {
+            padding: 80px 20px;
+        }
+        .portfolio h1 {
+            font-size: 44px;
+        }
+        h2 {
+            font-size: 36px;
+        }
+        .text-description {
+            padding: 0;
+            text-align: center;
+        }
+    }
