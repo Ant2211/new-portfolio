@@ -12,21 +12,37 @@ body {
     text-align: center;
     padding: 160px 0;
 }
+.about {
+    padding: 160px 0;  
+}
 .portfolio h1 {
     font-family: var(--heading-font-family);
     font-weight: bold;
     font-size: 96px;
 }
+.about h1{
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 80px;
+}
+
 .portfolio p {
     font-family: var(--secondary-font-family);
     font-size: 36px;
     font-weight: bold;
 }
+
 .portfolio h2 {
     font-family: var(--secondary-font-family);
     font-size: 24px;
     font-weight: normal;
     line-height: 2;  
+}
+.about h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 18px;
+    
 }
 .btn-branding {
     color: white;
@@ -54,12 +70,19 @@ body {
         background: var(--backgroun-color);
         border-radius: 4px;
     }
+    .text-about {
+        margin: 20px 30px;
+    }
     .text-description {
         padding: 60px;
     }
     @media (max-width: 900px) {
         .portfolio {
             padding: 80px 20px;
+        }
+        .about {
+            text-align: center;
+            padding: 0;
         }
         .portfolio h1 {
             font-size: 44px;
