@@ -39,6 +39,10 @@ body {
     font-weight: normal;
     line-height: 2;  
 }
+footer h4 {
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+}
 .about h2 {
     font-family: var(--secondary-font-family);
     font-size: 18px;
@@ -120,6 +124,34 @@ nav li.active a {
     .text-description {
         padding: 60px;
     }
+    footer {
+        margin: 60px 0;
+    }
+    footer .contact-box {
+        background: var(--backgroun-color);
+        padding: 30px 60px;
+        margin: 30px 60px;
+
+    }
+    footer a{
+        text-decoration: none;
+        color: black; 
+    }
+    footer .email-link {
+        display: flex;
+        justify-content: center;
+        
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    footer .social-links a {
+        margin: 0 20px;
+        color: var(--button-color);
+        padding: 10px 14px;
+        border-radius: 50%;
+        background: var(--backgroun-color);
+        font-size: 18px;
+    }
     @media (max-width: 900px) {
         .portfolio {
             padding: 80px 20px;
@@ -134,8 +166,11 @@ nav li.active a {
         h2 {
             font-size: 36px;
         }
+        
         .text-description {
             padding: 0;
             text-align: center;
         }
+        
     }
+    
