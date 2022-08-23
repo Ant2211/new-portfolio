@@ -10,10 +10,10 @@ body {
 .portfolio {
     background: var (--backgroun-color);
     text-align: center;
-    padding: 160px 0;
+    padding: 60px 0;
 }
 .about {
-    padding: 160px 0;  
+    padding: 60px 0;  
 }
 .portfolio h1 {
     font-family: var(--heading-font-family);
@@ -154,7 +154,7 @@ nav li.active a {
     }
     @media (max-width: 900px) {
         .portfolio {
-            padding: 80px 20px;
+            padding: 60px 20px;
         }
         .about {
             text-align: center;

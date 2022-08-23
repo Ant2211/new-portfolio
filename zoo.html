@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyiv's Zoo</title>
+</head>
+<body>
+<style>
+    .container {
+        max-width: 100%;
+        padding: 20px;
+     margin: 20px;
+    }
+    body {
+        background: radial-gradient(circle at 10% 20%, rgb(166, 226, 229) 0%, rgb(198, 232, 221) 100.2%);
+    }
+    h1 {
+        color: #347474;
+        font-size: 44px;
+        text-align: center;
+        padding: 15px 20px;
+        margin: 20px 400px;
+}
+h2 {
+        color: #347474;
+        font-size: 32px;
+        text-align: center; 
+}
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px;
+    }
+    .link {
+        text-decoration: none;
+        color: #347474;
+            }
+    .link:hover {
+        text-decoration: underline;
+    }
+    button {
+        color: #a6d6d6;
+        background-color: #347474;
+        padding: 10px 20px;
+        border:1px solid #347474;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 8px 0px;
+        display: block;
+        margin: 0 auto;
+    }
+    button:hover {
+       background-color: #a6d6d6; 
+       color: #347474;
+       cursor: pointer;
+    }
+</style>
+    <div class="container">
+<h1>
+    KyivZoo
+</h1>
+<h2> is waiting for you </h2>
+<hr />
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/805/original/280358199_4841860632602685_5878221624575747294_n.jpg?1656334379" alt="Kyivzoo"/>
+<p>
+  <strong> <em> Kyiv Zoological Park </em> </strong> of national importance is an environmental, research and cultural-educational institution, which is an artificially created object of the nature reserve fund of national importance.
+    Its total area is 34 hectares and the collection of animals includes 2170 specimens of animals of 400 species. Annually the Kyiv Zoo is visited by more than 600 thousand persons. 
+    <br />
+    <a href="https://zoo.kiev.ua/en/homepage/" target="_blank" class="link">
+       Here is more information
+    </a>
+    <hr />
+     </p>
+<button>
+    Buy the ticket
+</button>
+</div>
+<script>
+    function ticket () {
+        let name = prompt ("What is your name?");
+        let age = prompt ("How old are you?");
+        if (age <= 12 || age >= 60) {
+            alert ("Hello, "+ name + ". You can visit zoo free of charge 🙂");
+        } else {
+            alert ("Hello, " + name + ". The ticket will cost 120 uah 👌")
+        }
+    }
+    let buyButton = document.querySelector ("button")
+    buyButton.addEventListener ("click", ticket);
+</script>
+</body>
+</html>

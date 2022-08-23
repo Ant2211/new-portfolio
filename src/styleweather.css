@@ -1,0 +1,94 @@
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+h1 {
+  color: rgb(2, 2, 90);
+  background: rgb(202, 236, 241);
+  font-size: 64px;
+  padding: 80px 20 px;
+  margin: 0;
+  border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+#icon{
+    display: inline;
+    margin-right: 5px;
+    margin-top: -15px;
+  height: 64px;
+  width: 64px;
+}
+#icon-days {
+  height: 64px;
+  width: 64px;
+}
+#temperature {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -24px;
+}
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+#currentDate {
+  font-size: 18px;
+  text-decoration: none;
+}
+.input {
+  padding: 10px 20px;
+  margin: 10 20px;
+}
+#input-city {
+  max-width: 200px;
+  border: 1px solid rgb(2, 2, 65);
+  border-radius: 5px;
+  margin: 20px 20px;
+}
+
+#search {
+  color: white;
+  background: rgb(2, 2, 65);
+  border: 1px solid rgb(2, 2, 65);
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin: 20px 20px;
+}
+.image {
+  display: inline;
+  width: 310px;
+  border-radius: 8px;
+}
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.forecast-temp {
+  color: black;
+}
+.forecast-temp-min {
+color: darkgrey;
+}

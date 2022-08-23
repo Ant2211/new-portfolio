@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project Weather</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styleweather.css" />
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <div class="weather-app">
+        <div> <small> Last updated: <span id="date"></span></small></div>        
+                                        
+             <form class="input" id="search-form">
+        <input type="text" id="input-city" placeholder="Enter a city" autocomplete="off"/>
+        <input type="submit" value="search" id="search" />
+</form>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="img/map.jpg" class="image" alt="map" />
+          </div>
+          <div class="col">
+                        <h1 id="city">🌍<em>City</em></h1>
+            <ul>
+                                <li>
+                    <img src="img/sun.jpg" alt="icon" id="icon" />
+                    <span id = "temperature"></span>
+                    <span class="units"><a href="#" id="celsius-link" class = "active">°C</a> | <a href="#" id="fahrenheit-link">F</a></span>  
+                    
+                </li>
+                <li id="humidity"></li>            
+                <li id="wind"></li>
+                <li id="description"></li>
+                </ul>
+            
+                                      </div>
+            </div>
+            <div class="forecast" id="forecast">
+                            </div>
+
+                      </div>
+                      <br />
+       <a href="https://github.com/Ant2211/6weekwork" target="_blank">Github link</a>
+        <script src="src/indexweather.js"></script> 
+    </div>
+            
+  </body>
+</html>
