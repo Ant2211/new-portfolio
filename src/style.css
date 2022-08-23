@@ -52,16 +52,16 @@ footer h4 {
     font-family: var(--secondary-font-family);
     font-size: 24px;
     font-weight: normal;
-    line-height: 2;  
+    line-height: 1.5;  
     text-align: center;
 }
 .about p {
     font-family: var(--secondary-font-family);
     font-size: 18px;
     font-weight: normal;
-    line-height: 2;  
-    text-align: center;
-}
+    line-height: 1.5; 
+    text-align: center; 
+    }
 .btn-branding {
     color: white;
     background: var(--button-color);
