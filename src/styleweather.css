@@ -3,7 +3,7 @@
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
-  max-width: 600px;
+  
 }
 h1 {
   color: rgb(2, 2, 90);
@@ -89,6 +89,9 @@ li {
 color: darkgrey;
 }
 @media (max-width: 600px) {
+  .weather-app {
+    max-width: 300px;
+  }
   li {
     font-size: 12px;
       }
