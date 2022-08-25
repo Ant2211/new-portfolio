@@ -74,9 +74,8 @@ li {
   margin: 20px 20px;
 }
 .image {
-  display: inline;
-  width: 310px;
-  border-radius: 8px;
+  width: 400px;
+    border-radius: 8px;
 }
 .forecast {
   margin-top: 20px;
